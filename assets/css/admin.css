@@ -1,0 +1,537 @@
+body{
+    background-color: #f7f7f7;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #182432;
+}
+a:hover,a:focus{
+    text-decoration: none !important;
+}
+.no-padding{
+    padding: 0;
+}
+.login{
+    background-color: #182432;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.login-panel{
+    background-color: #fff;
+    margin-top: 100px;
+    border-bottom: 3px solid #850101;
+}
+.login-panel .left-panel{
+    background-color: #850101;
+    padding: 126px 20px;
+    text-align: center;
+    color: #E8E9EB;
+    position: relative;
+}
+.login-panel .left-panel h5{
+    background-color: #fff;
+    color: #850101;
+    position: absolute;
+    left: -5px;
+    top: 20px;
+    padding: 5px 25px;
+    font-weight: bold;
+}
+.login-panel .left-panel h2{
+    font-size: 36px;
+    font-weight: bold;
+    margin:0;
+}
+.login-panel .left-panel h3{
+    font-size: 22px;
+    margin: 0;
+}
+.login-panel .left-panel ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+.login-panel .left-panel ul li{
+    display: block;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+.login-panel .left-panel ul li::before{
+    font-family: "Font Awesome 5 Free";
+    content:"\f058";
+    margin-right: 5px;
+    font-size: 14px;
+}
+.login-panel .form{
+    padding: 103px 50px;
+    position: relative;
+    overflow: hidden;
+    height: 465px;
+}
+.login-panel .form .field{
+    padding: 10px 0;
+}
+.login-panel .form label{
+    display: block;
+    color: #b1b1b1;
+}
+.login-panel .form label span{
+    color: red;
+    font-size: 12px;
+}
+.login-panel .form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b1b1b1;
+}
+.login-panel .form span p{
+    display: inline;
+    font-size: 12px;
+    margin: 0;
+}
+.login-panel .form a{
+    color: #b1b1b1;
+    display: inline-block;
+    font-size: 12px;
+}
+.login-panel .form button{
+    background-color: #850101;
+    color: #E8E9EB;
+    border: none;
+    float: right;
+    padding: 5px 15px;
+    border-radius: 2px
+}
+.create p{
+    color: #E8E9EB;
+    text-align: right;
+    padding: 5px 0;
+    font-size: 12px;
+}
+.create p a{
+    color: #007cfb;
+}
+.nav-custom{
+    background-color: #13202B;
+    width: 113px;
+    height: 100%;
+    position: fixed;
+}
+.header .logo{
+    padding: 20px;
+}
+.header .logo img{
+    width: 100%;
+}
+.nav-custom .nav{
+    margin-top: 20px;
+}
+.nav-custom .nav ul{
+    padding: 0;
+    margin: 0;
+}
+.nav-custom .nav ul li{
+    display: block;
+    padding: 15px 10px;
+    text-align: center;
+    border-top:1px solid #b1b1b1;
+    font-size:16px; 
+}
+.nav-custom .nav ul li:last-child{
+    border-bottom: 1px solid #b1b1b1;
+}
+.nav-custom .nav ul li a{
+    color: #E8E9EB;
+}
+.header{
+    padding: 10px 0;
+}
+.header .logo a h1{
+    color: #fff;
+    font-weight: bold;
+}
+.header .loggedin_user{
+    padding: 10px 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header .loggedin_user .img-container{
+    max-width: 50px;
+    flex: 0 0 50px;
+    -ms-flex: 0 0 50px;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 2px solid #007cfb;
+    height: 50px;
+}
+.header .loggedin_user .img-container img{
+    width: 100%;
+}
+.header .loggedin_user .text-wrap{
+    max-width: 75%;
+    flex: 0 0 75%;
+    -ms-flex: 0 0 75%;
+    padding: 10px 5px;
+    color:#fff;
+}
+.header .loggedin_user .text-wrap h5{
+    font-size:14px;
+    margin:0;
+}
+.header .loggedin_user .text-wrap h2{
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+}
+.header .loggedin_user .text-wrap h4{
+    margin: 0;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.header .dropdown{
+    position: relative;
+}
+.header .dropdown .dropdown-toggle{
+    text-align: right;
+    font-size: 16px;
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 0;
+}
+.header .dropdown .dropdown-toggle::after{
+    display: none;
+}
+.header .dropdown .dropdown-menu{
+    position: absolute;
+    right: 0;
+    left: auto !important;
+}
+.header .dropdown .dropdown-menu a{
+    display: block;
+    padding: 5px 20px;
+    color:#13202B;
+
+}
+.header .dropdown .dropdown-menu a:last-child{
+    border-top: 1px solid #efefef;
+}
+.section .count{
+    padding: 20px 0;
+    color: #E8E9EB;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    text-align: center;
+}
+.section .amount .panel{
+    background-color:  #850101 !important;
+    padding: 20px;
+    text-align: center;
+    color: #fff !important;
+}
+.section .amount .panel h5{
+    font-weight: bold;
+    font-size: 16px;
+}
+.section .amount .panel h2{
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+}
+.section .count .panel{    
+    background-color: #182432;
+}
+.section .count h5{
+    font-size: 16px;
+    font-weight: normal;
+}
+.section .count h5 i{
+    margin-right: 5px;
+    font-size: 16px;
+}
+.section .count h3{
+   font-size: 36px;
+   font-weight: bold;
+}
+.section .ongoing_projects{
+    color: #007cfb;
+    border-color: #007cfb !important;
+}
+.section .team .top{
+    padding: 20px 0;
+}
+.section .team .top h1{
+    margin: 0;
+}
+.section .search input{
+    width: 100%;
+    border: 1px solid #d1d1d1;
+    padding: 5px 10px;
+    border-radius: 20px 0 0 20px;
+    border-right: none;
+}
+.section .search button{
+    background-color: #fff;
+    padding: 5px;
+    display: block;
+    width: 100%;
+    border: 1px solid #d1d1d1;
+    border-radius: 0 20px 20px 0;
+    border-left: none;
+}
+.section .panel{
+    padding: 20px 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 0;
+}
+.section .panel h2{
+    margin: 0;
+    font-size: 24px;
+    color: #EABD9A;
+}
+.section .panel button{
+    float: right;
+    margin-bottom: 5px;
+}
+.section .table{
+    padding: 20px 0;
+    border-top: 1px solid #eee;
+}
+.section .table .top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.section .table .top h2{
+    font-weight: bold;
+    color:#fff;
+}
+.section .table .top a{
+    background-color: #850101;
+    color: #E8E9EB;
+    font-weight:bold;
+    padding: 10px 25px;
+}
+.section .table table{
+    width: 100%;
+    margin: 20px 0;
+}
+.section .table table thead{
+    background-color: #850101;
+    color: #E8E9EB;
+}
+.section .table table thead th{
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    text-transform: capitalize;
+}
+.section .table table tbody td{
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.section .table table tbody td a{
+   background-color: #850101;
+   color: #fff;
+   padding: 5px 10px;
+   text-decoration: none;
+   font-weight: normal;
+   font-size: 12px;
+   display: inline-block;
+   margin: 5px 0;
+}
+.section .table table tbody td a.disabled{
+    cursor: default;
+    color: #d1d1d1;
+    background-color: #b13d3d;
+}
+.section .table table tbody tr:nth-child(even){
+    background-color: #f0f0f0;
+}
+.section .table table tbody tr{
+    background-color: #fff;
+}
+.profile .panel .img-container{
+    border:3px solid #EDEDED;
+}
+.profile .panel .img-container img{
+    width: 100%;
+}
+.table .btn-set{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0;
+}
+.table td a{
+    padding: 0 5px;
+}
+.table td p{
+    margin: 0;
+    font-size: 12px;
+}
+.table td span,.section .view span.category{
+    font-size: 12px;
+    font-weight: bold;
+    color: #E8E9EB;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.section .view{
+    padding: 50px 0;
+}
+.section .view img{
+    width: 50%;
+}
+.section .view span.date{
+    font-size: 14px;
+    padding-right: 10px;
+}
+.section .view .fields{
+    display: flex;
+}
+.section .view .fields .field{
+    max-width: 50%;
+    flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+}
+.section .form{
+    padding: 50px 0;
+    border-top: 1px solid #eee;
+}
+.section .form h1{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+.section .form fieldset{
+    border: 1px solid #fff;
+    padding: 0 20px;
+    margin: 20px 0;
+}
+.section .form fieldset legend{
+    background-color:  #850101;
+    width: auto;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+.section .form fieldset form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section .form fieldset .field{
+    max-width: 50%;
+    padding: 10px;
+    flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    position: relative;
+}
+.section .form fieldset  .field label{
+    color:#fff;
+    font-weight: normal;
+}
+.section .form fieldset .field label span{
+    color: #D10000;
+}
+.section .form fieldset .field.textarea{
+    max-width: 100%;
+    flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+}
+.section .form fieldset .field input,.section .form fieldset .field select,.section .form fieldset .field textarea{
+    width: 100%;
+    padding: 5px 10px;
+    outline: unset;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.section .form fieldset .field input[type="file"]{
+    color: #fff;
+}
+.section .form .field.year::after{
+    position: absolute;
+    content: "20";
+    color: #b1b1b1;
+    left: 20px;
+    bottom: 16px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.section .form .field.year input{
+    padding-left: 35px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.section .form fieldset .field textarea{
+    height: 300px;
+}
+.section .form fieldset .btn-set{
+    padding: 42px 10px 20px;
+}
+.section .form fieldset .btn-set button{
+    background-color: #850101;
+    font-weight:bold;
+    border: none;
+    color: #fff;
+    padding: 5px 35px;
+}
+.section .form fieldset.details .fields{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section .form fieldset.details .fields .field{
+    max-width: 33%;
+    flex: 0 0 33%;
+    -ms-flex: 0 0 33%;
+}
+.section .form fieldset.details .fields .field strong{
+    color: #fff;
+}
+.section .form fieldset.details .fields .field button{
+    margin-top: 10px;
+    border: none;
+    outline: unset;
+    color: #fff;
+    background-color: #850101;
+    padding: 5px 15px;
+}
+.section .form .text-wrap{
+    justify-content: center;
+    color: #fff;
+    flex-flow: column;
+    align-items: center;
+    display: flex;
+}
+.section .form .text-wrap img{
+    width: 25%;
+    margin: 20px 0;
+}
+.section .form .text-wrap a{
+    color: #fff;
+    font-weight: bold;
+}
+.section .back.btn{
+    background-color: #850101;
+    border-color: #850101;
+    border-radius: 0;
+    outline: unset;
+    box-shadow: unset;
+}
+.section .profile .img-box img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.section .profile .img-box label{
+    color: #fff;
+    margin: 0;
+}
+.section .profile .img-box input{
+    margin: 10px 0;
+}
+.section .profile strong{
+    display: flex;
+}

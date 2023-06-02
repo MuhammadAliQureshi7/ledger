@@ -1,0 +1,118 @@
+.header{
+
+    padding: 20px 0;
+
+    border-bottom: 1px solid #ccc;
+
+}
+.section .form{
+
+    padding: 50px 0;
+
+}
+.section .back.btn{
+    background-color: #850101;
+    border-radius: 0;
+    border-color: #850101;
+}
+.section .form h1{
+
+    text-align: center;
+
+    color: #D10000;
+
+    font-weight: bold;
+
+}
+
+.section .form fieldset{
+
+    border: 1px solid #D10000;
+
+    padding: 0 20px;
+
+}
+
+.section .form fieldset legend{
+
+    background-color:  #D10000;
+
+    width: auto;
+
+    color: #fff;
+
+    font-size: 14px;
+
+    padding: 5px 20px;
+
+    font-weight: bold;
+
+}
+
+.section .form fieldset form{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+}
+
+.section .form fieldset form .field{
+
+    max-width: 50%;
+
+    padding: 10px;
+
+    flex: 0 0 50%;
+
+    -ms-flex: 0 0 50%;
+
+}
+
+.section .form fieldset form .field.textarea{
+
+    max-width: 100%;
+
+    flex: 0 0 100%;
+
+    -ms-flex: 0 0 100%;
+
+}
+
+.section .form fieldset form .field input,.section .form fieldset form .field select,.section .form fieldset form .field textarea{
+
+    width: 100%;
+
+    padding: 5px 10px;
+
+    outline: unset;
+
+    border-radius: 5px;
+
+    border: 1px solid #ccc;
+
+}
+
+.section .form fieldset form .field textarea{
+
+    height: 300px;
+
+}
+
+.section .form fieldset form .btn-set{
+
+    padding: 20px 10px;
+
+}
+
+.section .form fieldset form .btn-set button{
+
+    background-color: #D10000;
+
+    border: none;
+
+    color: #fff;
+
+    padding: 5px 35px;
+
+}
